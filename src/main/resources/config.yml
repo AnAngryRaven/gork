@@ -1,0 +1,13 @@
+# Required prefix for gork
+prefix: "@gork"
+
+# Text that should trigger a response from Gork
+triggers:
+  - "is this"
+  - "were you"
+  - "do you"
+  - "is there"
+
+# Highlight the asker's username for them
+# Default: true
+highlight_username: true
