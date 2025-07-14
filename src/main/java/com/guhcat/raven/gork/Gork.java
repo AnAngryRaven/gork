@@ -19,7 +19,12 @@ public final class Gork extends JavaPlugin {
         plugin = this;
         saveDefaultConfig();
         getServer().getPluginManager().registerEvents(new ChatListener(), this);
+        getCommand("gorkload").setExecutor(new Reload());
 
+        loadConfig();
+    }
+
+    public void loadConfig() {
         VARIANTS = plugin.getConfig().getStringList("triggers");
         PREFIX = plugin.getConfig().getString("prefix");
         HIGHLIGHTUSER = plugin.getConfig().getBoolean("highlight_username");

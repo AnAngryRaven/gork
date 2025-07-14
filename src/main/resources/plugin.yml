@@ -5,3 +5,9 @@ api-version: '1.21'
 description: 'Responds ever so insightfully to your queries.'
 author: AnAngryRaven
 website: 'https://github.com/AnAngryRaven/gork'
+
+commands:
+  gorkload:
+    description: Reload Gork's config file
+    usage: /<command> [reload]
+    permission: gork.reloadConfig
