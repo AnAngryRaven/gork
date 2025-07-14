@@ -15,3 +15,7 @@ The bot can be easily configured in the plugin's `config.yml` file, allowing you
 - Change the prefix for the bot (i.e. `@gork` -> `@cahtgtp`)
 - Add / remove trigger phrases for the bot
 - Enable / disable coloured `@{username}` for the person that triggered it
+## For the avoidance of doubt...
+This plugin does *not* utilize *any* machine learning or "artificial intelligence" technologies, generative or otherwise. 
+
+Finally, not affiliated with Twitter, xAI, or any derivative / future name those companies / platforms happens to have.
