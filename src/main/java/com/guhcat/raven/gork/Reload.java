@@ -12,7 +12,8 @@ public class Reload implements CommandExecutor {
     public boolean onCommand(@NotNull CommandSender sender, @NotNull Command command, @NotNull String label, @NotNull String[] args) {
         plugin.reloadConfig();
         plugin.loadConfig();
-        sender.sendMessage("Gork reloaded successfully!");
+        sender.sendMessage("gork reloaded successfully!");
+        plugin.getLogger().log(java.util.logging.Level.INFO,"gork reloaded by user " + sender.getName() + "!");
         return true;
     }
 }
