@@ -15,6 +15,8 @@ The bot can be easily configured in the plugin's `config.yml` file, allowing you
 - Change the prefix for the bot (i.e. `@gork` -> `@cahtgtp`)
 - Add / remove trigger phrases for the bot
 - Enable / disable coloured `@{username}` for the person that triggered it
+
+The config can then be easily reloaded using the `/gorkload` command.
 ## For the avoidance of doubt...
 This plugin does *not* utilize *any* machine learning or "artificial intelligence" technologies, generative or otherwise. 
 
